@@ -1,0 +1,41 @@
+Hello Karsten , Erik , Connor
+
+I hope you guys like my Updated Version of My chat.
+
+Whats new in this version:
+
+1)Fixed code
+	I fix some staff that you told me like  use const , referencing 
+2)Fixed the color
+	Now each Client has its own color
+3)Cleaned Main.cpp
+	I split everything in classes like Server Class and Client Class so the main is not
+	cluttered any more
+4)New Utils Class that i use for my staff instead of have this staff into main
+	Also I Create a Log function to use for printing instead of std::cout
+
+5)I Create my own String.Split function to split a long string with a delimiter
+
+6)I Create some Server Commands
+	For example you can change the color of the server or change the welcome message
+	
+If you want to change the server color just write
+	-C[Space]  followed by the int of the color   (ex.   -C 1 ) is blue
+Also you can change the Welcome message if you write
+	-W[Space] followed by welcome message  (ex.  -W Welcome ) Set message to Welcome
+You can see The list of currently connected clients by using the -U command
+
+You can change the server name by using the -N[space] "Name"  Command
+
+You can clear the console by use the -X Command
+
+You can kick someone from the chat using the -K[space] "Socket"  Command
+
+7)Fix: If The client close the console window Server can handle that and remove him from the list
+
+8)Using socketSets.I found socketsets to work Better And faster
+
+*All the above Commands work only for server
+Please try all those commands and tell me what you think.
+I believe you will love my chat and my work.
+	
